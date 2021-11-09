@@ -1,0 +1,16 @@
+h1 {
+    font-size: 25px!important;
+}
+.btn-success:hover {
+    background-color: crimson;
+}
+canvas {
+     border:2px solid black; 
+     animation-name: glow1; 
+     animation-duration:4s; 
+     animation-iteration-count: infinite; }
+
+@keyframes glow1 {
+    from{box-shadow: 2px 2px 30px royalblue;}
+    to{box-shadow: 2px 2px 30px darkslategrey;}
+}
